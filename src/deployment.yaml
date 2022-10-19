@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: bigulinux/conversao-temperatura:v1
+          image: igorbertelli/conversao-temperatura:v1
           ports:
           - containerPort: 8080
 ---
